@@ -1,0 +1,48 @@
+*{
+    box-sizing:border-box;
+    background-color: rgb(0, 0, 0);
+}
+.main{
+    height:700px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:column;
+}
+.box{
+    width:50%;
+    height:98%;
+}
+h1,h2{
+    background-color: whitesmoke;
+    color:black;
+    margin-left: 1rem;
+}
+.content{
+    background-color: whitesmoke;
+    text-align: center;
+    
+}
+a{
+    background-color: whitesmoke;
+    text-decoration: none;
+}
+.image{
+    background-image: url(Melinda-Gates-headshot_credit-to-Jason-Bell.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 98%;
+    width:50%;
+    display:flex;
+    justify-content: center;
+    align-items:flex-end;
+}
+i{
+    background-color: whitesmoke;
+    color:blue;
+}
+.img_content{
+    color:white;
+    text-align: center;
+    position: relative;
+}
